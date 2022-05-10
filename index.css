@@ -1,0 +1,167 @@
+html{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    margin-top: 0px;
+}
+
+/* Navigation */
+
+header{
+    display: inline-flex;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    height: 69px;
+    background-color: black;
+    opacity: 0.85;
+}
+
+.logo{
+    height: 50px;
+}
+
+nav{
+    opacity: 0.9;
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+    float: right;
+}
+
+li{
+    text-decoration: underline;
+    margin: 5px 10px;
+    display: inline;
+}
+
+a:link{
+    color: seashell;
+}
+
+a:visited{
+    color:gray;
+}
+
+
+/* Main */
+
+.mission{
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*j95o8u*_ga*OTI4NDc2OTU3LjE2NDczNzQ3MTE.*_ga_3LRZM6TM9L*MTY1MjEyODgxOS42NC4xLjE2NTIxMzA0MzYuNTc.');
+}
+
+#part1{
+    height: 18px;
+}
+
+.banner{
+    width: 1200px;
+    height: 125px;
+    margin: 0 auto;
+    background-color: black;
+    text-align: center;
+    position: relative;
+    top: 295px;
+}
+
+
+/* Tea of the Month*/
+
+.tom{
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.tea-list{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.list-pic{
+    width: 300px;
+    height: 200px;
+}
+
+h4{
+    margin-top: 10px;
+}
+
+/* Locations */
+
+.locations-sec{
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 500px;
+    width: 1200px;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*f35dn4*_ga*OTI4NDc2OTU3LjE2NDczNzQ3MTE.*_ga_3LRZM6TM9L*MTY1MjEyODgxOS42NC4xLjE2NTIxMzE1NzUuNTc.');
+    }
+
+#part3{
+    width:fit-content;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.locations{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    width: 300px; 
+    height: 300px;
+    margin: 15px 40px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+p{
+    text-align: center;
+}
+
+/* Footer */
+
+footer{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.contact{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    height: 200px;
+}
+
+h5{
+    margin: 0 auto;
+}
+
+p{
+    text-align: left;
+}
