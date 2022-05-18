@@ -10,6 +10,7 @@ html{
 
 body{
     margin-top: 0px;
+    width: 100%;
 }
 
 /* Navigation */
@@ -87,6 +88,8 @@ a:visited{
     text-align: center;
     width: 100%;
     margin: 0 auto;
+    padding: 0px;
+    border: 0px;
 }
 
 .tea-list{
@@ -147,6 +150,8 @@ p{
 footer{
     width: 100%;
     margin: 0 auto;
+    padding: 0px;
+    border: 0px;
 }
 
 .contact{
@@ -163,6 +168,7 @@ footer{
 
 h5{
     margin: 0 auto;
+    width: 100%;
 }
 
 p{
